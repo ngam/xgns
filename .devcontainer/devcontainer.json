@@ -1,5 +1,5 @@
 {
-	"name": "template",
+	"name": "xgns",
 	"runArgs": ["--init"],
 	"build": {
 		"dockerfile": "Dockerfile",
