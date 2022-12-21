@@ -30,7 +30,8 @@ repository = "https://github.com/uncscode/xgns"
 dev = [
     "pylint", "pytest", "autopep8", "jupyterlab", "pytype",
     "typing", "build", "flake8", "jupyter-book", "ghp-import",
-    "matplotlib", "numpy", "scipy",
+    "matplotlib", "numpy", "scipy", "xarray", "zarr", "dask",
+    "netcdf4", "h5py", "pseudonetcdf", "pyyaml",
 ]
 
 [build-system]
