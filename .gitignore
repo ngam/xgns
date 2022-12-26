@@ -1,6 +1,11 @@
 # ignore .DS_Store on macs
 .DS_Store
 
+# ignore .ipynb notes
+notes.ipynb
+
+*.yaml
+
 # ignore local .vscode folder
 .vscode/
 

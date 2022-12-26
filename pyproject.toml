@@ -17,7 +17,10 @@ keywords = [
     "xgns",
 ]
 
-dependencies = [""]
+dependencies = [
+    "matplotlib", "numpy", "scipy", "xarray", "zarr", "dask",
+    "netcdf4", "h5py", "pseudonetcdf", "pyyaml",
+]
 
 # This is set automatically by flit using `xgns.__version__`
 dynamic = ["version"]
@@ -30,7 +33,8 @@ repository = "https://github.com/uncscode/xgns"
 dev = [
     "pylint", "pytest", "autopep8", "jupyterlab", "pytype",
     "typing", "build", "flake8", "jupyter-book", "ghp-import",
-    "matplotlib", "numpy", "scipy",
+    "matplotlib", "numpy", "scipy", "xarray", "zarr", "dask",
+    "netcdf4", "h5py", "pseudonetcdf", "pyyaml",
 ]
 
 [build-system]
