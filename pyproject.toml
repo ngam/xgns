@@ -17,7 +17,10 @@ keywords = [
     "xgns",
 ]
 
-dependencies = [""]
+dependencies = [
+    "matplotlib", "numpy", "scipy", "xarray", "zarr", "dask",
+    "netcdf4", "h5py", "pseudonetcdf", "pyyaml",
+]
 
 # This is set automatically by flit using `xgns.__version__`
 dynamic = ["version"]
